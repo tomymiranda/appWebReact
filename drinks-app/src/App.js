@@ -1,12 +1,10 @@
-
-
-
 function App() {
   return (
-    <div className="">
-    
-    <h1>Drinks App</h1>
-    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div className = "container">
+        <a className="navbar-brand text-uppercase" href="/">Drinks App</a>
+      </div>
+    </nav>
   );
 }
 
