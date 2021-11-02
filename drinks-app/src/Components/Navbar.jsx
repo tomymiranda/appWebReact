@@ -1,12 +1,12 @@
 import React from "react";
 
-export const Navbar = () => {
+export const Navbar = ({titlePage}) => {
   return (
     <div>
       <nav class="navbar navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand text-uppercase" href="/">
-            Drinks App
+           {titlePage}
           </a>
         </div>
       </nav>
