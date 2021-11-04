@@ -1,6 +1,16 @@
 .anchoMinimo{
-    width: 200px;
+    min-width: 200px;;
 }
 .tamanioNombre{
     font-size: 16px;
+}
+.tipoLetra{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+.colorFondo{
+    background-color:#AEE6E3 ;
+}
+.negrita{
+    font-weight: bold;
 }

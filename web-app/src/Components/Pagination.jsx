@@ -11,7 +11,7 @@ export const Pagination = ({ hayPrevio, haySiguiente, previo, siguiente }) => {
 
   return (
     <nav>
-      <ul className="pagination justify-content-end my-4">
+      <ul className="pagination justify-content-end my-4 rounded">
         <li className="page-item">
           {hayPrevio ? (
             <button className="page-link" onClick={paginaAnterior}>
