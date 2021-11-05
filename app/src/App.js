@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Navbar } from "./Components/Navbar";
 import { Personajes } from "./Components/Personajes";
 import { Pagination } from "./Components/Pagination";
+import Footer from "./Components/Footer";
 
 function App() {
   const urlDeApi = "https://rickandmortyapi.com/api/character";
@@ -42,6 +43,7 @@ function App() {
         />
         <Personajes personajesARepresentar={personajesState} />
       </div>
+      <Footer/>
     </div>
   );
 }
