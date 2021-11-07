@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="colorFondo">
-      <Navbar titlePage={"Rick y Morty App"} />
+      <Navbar />
       <div className="container ">
         <Pagination
           hayPrevio={info.prev}

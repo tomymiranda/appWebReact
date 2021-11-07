@@ -1,15 +1,18 @@
 import React from "react";
+import logo from '../img/logo.png';
+import './logo.css';
 
-export const Navbar = ({titlePage}) => {
+export const Navbar = ({ }) => {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand text-uppercase tipoLetra" href="/">
-           {titlePage}
-          </a>
-          <a className ="text-uppercase navbar-brand tipoLetra" href = "https://rickymortylatino.com/">
-              Ver capitulos online
+          <a href ="/"><img src ={logo} className = "tamanioLogo"/></a>
+          <a
+            className="text-uppercase navbar-brand tipoLetra"
+            href="https://rickymortylatino.com/"
+          >
+            Ver capitulos online
           </a>
         </div>
       </nav>
