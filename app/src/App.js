@@ -42,6 +42,12 @@ function App() {
           siguiente={mostrarSiguiente}
         />
         <Personajes personajesARepresentar={personajesState} />
+        <Pagination
+          hayPrevio={info.prev}
+          haySiguiente={info.next}
+          previo={mostrarPrevio}
+          siguiente={mostrarSiguiente}
+        />
       </div>
       <Footer/>
     </div>
