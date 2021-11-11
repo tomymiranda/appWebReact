@@ -32,6 +32,7 @@ function App() {
   };
 
   return (
+    
     <div className="colorFondo">
       <Navbar />
       <div className="container ">
